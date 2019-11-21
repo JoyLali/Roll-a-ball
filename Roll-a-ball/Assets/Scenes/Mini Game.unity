@@ -413,6 +413,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.49999997
       objectReference: {fileID: 0}
+    - target: {fileID: 2795886489142301003, guid: 7010ae2b917153d4b906ffdb62da9b8b,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7010ae2b917153d4b906ffdb62da9b8b, type: 3}
 --- !u!4 &721744657 stripped
@@ -1776,7 +1781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!135 &2057093504
 SphereCollider:
   m_ObjectHideFlags: 0
